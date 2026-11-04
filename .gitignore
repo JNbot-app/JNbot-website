@@ -1,0 +1,45 @@
+# dependencies
+/node_modules
+package-lock.json
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel / netlify
+.vercel
+.netlify
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# python
+__pycache__/
+*.pyc
+
+# os / editors
+.DS_Store
+.idea/
+.vscode/
+
+# local AI and design tooling
+.agents/
+.claude/
+.codex/
+.impeccable/
+skills-lock.json
+DESIGN.md
+PRODUCT.md

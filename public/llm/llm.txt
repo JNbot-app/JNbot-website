@@ -1,0 +1,113 @@
+# JNbot
+
+## Project Description
+
+JNbot is a comprehensive Minecraft automation tool. It provides powerful bot management, automation scripts, and advanced features for Minecraft players looking to optimize their gameplay and manage multiple accounts efficiently.
+
+## Key Features
+
+### Automation Scripts
+- **Gkit Collector**: Automatically joins with multiple bots to collect unclaimed gkits (game kits), then transfers all collected items to a designated main account. Supports various transfer methods including /trade, /gift, and key-based trading with fully automatic trading options.
+- **Gkit Upgrader**: Automatically upgrades gkits for all configured alts across different gamemodes.
+- **Kit Collector**: Claims kits from various gamemode menus and transfers the items to a main account. Supports complex navigation through multi-page kit interfaces.
+- **AFK Script**: Joins bots to gamemodes and keeps them AFK with auto-reconnect functionality to maintain presence.
+- **Alt Scanner**: Scans all configured alts to detect their current ranks and available gkits, then automatically updates the alt management system with the findings.
+- **Book Sorter**: Automates the process of buying enchantment books from /enchanter, sorts wanted books into personal vaults (PVs), and tinkers unwanted books for experience. Supports multiple book types and custom sorting rules.
+
+### Bot Management
+- **Individual Bot Control**: Full control over each connected bot including:
+  - Real-time information display (health, position, gamemode, etc.)
+  - Chat monitoring and sending
+  - Action execution (movement, item usage, commands)
+  - Inventory management and viewing
+  - Pathfinding and movement control
+  - Live map visualization
+  - Code execution capabilities
+  - Event triggering system
+- **Active Bot Monitoring**: Dashboard showing all currently running bots with their status and statistics.
+
+### Account Management (Alts)
+- **Alt Creation**: Automated alt account generation with various configuration options.
+- **Rank Detection**: Automatic scanning and updating of account ranks across gamemodes.
+- **Gkit Tracking**: Comprehensive gkit availability tracking for all accounts.
+- **Alt Organization**: Filtering, sorting, and management of large alt collections.
+
+### Minecraft Launcher Integration
+- **Direct Minecraft Launching**: Launch Minecraft directly from the application with custom configurations.
+- **Version Management**: Support for multiple Minecraft versions with automatic version detection.
+- **Mod Management**: Install, remove, and manage mods through an integrated interface.
+- **Microsoft Account Integration**: Seamless login with Microsoft accounts for premium Minecraft access.
+- **Crash Reporting**: Automatic crash detection and reporting for troubleshooting.
+
+### Plugin System
+- **Custom Plugin Creation**: Create custom automation scripts and plugins.
+- **Multiple Languages**: Support for JavaScript and visual component-based programming.
+- **Plugin Types**: Both scripts (automated tasks) and actions (manual triggers).
+- **Import/Export**: Share and backup custom plugins with .jnbot file format.
+
+### Packet Proxy System (JNbot Proxy)
+- **Packet Interception**: Intercept and monitor all network packets between client and server.
+- **Recording System**: Record packet sequences for later analysis or replay.
+- **Packet Analysis**: Inspect and modify packet contents for debugging or research.
+- **Replay Functionality**: Replay recorded packets to automate complex actions or test server responses.
+
+### Server & Connection Features
+- **JNbot Server**: Run a local server for remote connections and multi-device management.
+- **Device Management**: Connect and manage multiple devices running JNbot.
+- **Public/Private Connections**: Control whether connections are allowed from external networks.
+- **Peer-to-Peer**: Direct device-to-device connections for collaborative bot management.
+
+### Dashboard & Analytics
+- **Account Worth Tracking**: Monitor the total value of items across all accounts.
+- **Script Usage Statistics**: Track which scripts are used most frequently and their success rates.
+- **Gkit Timeline**: Visual timeline showing gkit availability and collection history.
+- **Player Tracking**: Monitor other players' activities and statistics.
+- **Script Chaining**: Combine multiple scripts into automated workflows.
+
+### Settings & Configuration
+- **General Settings**: Theme selection, language preferences, update management, automatic backups.
+- **Bot Configuration**: Minecraft version settings, server IP configuration, connection timeouts, anti-cheat handling (V4Guard support).
+- **Script Settings**: Execution delays, logging preferences, memory limits, auto-start options.
+- **Notification System**: Sound alerts for script completion, gkit availability, and other events.
+
+### Additional Features
+- **Discord Integration**: Built-in Discord bot for remote monitoring and control.
+- **Auto Updates**: Automatic update checking with beta release support.
+- **Backup/Restore**: Complete settings and configuration backup and restore functionality.
+- **Error Handling**: Comprehensive error reporting and crash handling with Sentry integration.
+- **Console Logging**: Advanced logging system with filtering and export capabilities.
+- **Inventory Viewer**: Real-time inventory inspection for all connected bots.
+- **Map Visualization**: Live world map showing bot positions and surroundings.
+
+## Technical Specifications
+- Cross-platform support (Windows, macOS, Linux)
+- Electron-based desktop application
+- React frontend with TypeScript
+- Node.js backend with Mineflayer integration
+- WebRTC for peer-to-peer connections
+- SQLite database for local data storage
+- Comprehensive API for plugin development
+
+## Safety & Anti-Cheat
+- Built-in delays and randomization to avoid detection
+- V4Guard verification support
+- Server IP rotation for distributed connections
+- Configurable timing to mimic human behavior
+
+## Achievements
+- 5.5 million+ bots have joined servers
+- 21,000+ bot accounts registered
+- Trusted by thousands of Minecraft players
+
+## Use Cases
+JNbot is ideal for:
+- Players who want to automate repetitive tasks
+- Multi-account managers handling large numbers of alts
+- Competitive players who need efficient kit and gkit management
+- Server administrators looking to enhance their gameplay
+- Developers interested in creating custom Minecraft automation
+
+JNbot transforms the Minecraft experience from manual labor to strategic gameplay, giving players more time to enjoy the creative and competitive aspects of the game while handling the automation behind the scenes.
+
+
+To see the JNbot plugin code API, visit: http://jnbot.netlify.app/llm-all.txt

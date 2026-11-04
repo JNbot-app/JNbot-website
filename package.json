@@ -1,0 +1,41 @@
+{
+  "name": "jnbot-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The JNbot website: downloads, docs entry point, remote access and legal pages.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JNbot-app/JNbot-website.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:deploy": "npm --prefix ../app run sync:plugin-reference && next build && npm run build-docs",
+    "build-docs": "rm -rf ./out/docs && cp -r ../docs/build ./out/docs",
+    "start": "npx serve out",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.2",
+    "@react-three/fiber": "^8.18.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.35",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/three": "^0.184.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}

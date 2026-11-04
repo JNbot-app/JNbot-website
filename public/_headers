@@ -1,0 +1,11 @@
+/llm/llm.txt
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=86400
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex
+
+/llm/llm-all.txt
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=86400
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex

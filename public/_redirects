@@ -1,0 +1,8 @@
+/altstore https://github.com/usserwout/JNbot-updater/releases/latest/download/source.json 302
+/altstore.json https://github.com/usserwout/JNbot-updater/releases/latest/download/source.json 302
+/altstore/source.json https://github.com/usserwout/JNbot-updater/releases/latest/download/source.json 302
+/docs /docs/ 301
+/docs/* /docs/index.html 200
+/llm.txt /llm/llm.txt 200
+/llm-all.txt /llm/llm-all.txt 200
+/* /index.html 200
